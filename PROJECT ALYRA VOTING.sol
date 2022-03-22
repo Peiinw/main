@@ -91,7 +91,7 @@ function voteCounting (uint _proposalId) public view onlyOwner returns (uint _vo
     return proposals[_proposalId].voteCount;
 }
 
-function votesTallied (WorkflowStatus _previousStatus,WorkflowStatus _newStatus) public onlyOwner { // Stop the voting step
+function votesTallied (WorkflowStatus _previousStatus,WorkflowStatus _newStatus) public onlyOwner { // Ensure the votes are tallied
     status = WorkflowStatus.VotesTallied;
     emit WorkflowStatusChange(_previousStatus, _newStatus);
 }
