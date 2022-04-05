@@ -6,7 +6,7 @@ J'ai décidé de le faire dans l'ordre chronologique pour chaque catégorie, ce 
 
 ---
 ## Nombre de test total : 26
----
+
 ## Pourcentage de coverage atteint : 100%
 
 |File         |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
