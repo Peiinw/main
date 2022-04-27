@@ -37,7 +37,7 @@ event Voted (address voter, uint proposalId);
 
 
 // MODIFIERS
-modifier whitelisted() {   // Require the voter has been whitelisted 
+modifier whitelisted() {   // Require the voter has been whitelisted.
     require(voters[msg.sender].isRegistered, "You have not the permission to vote yet.");
     _;
 }
